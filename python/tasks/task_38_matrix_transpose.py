@@ -5,7 +5,7 @@ def matrix_transpose(matrix: list[list[int]]) -> list[list[int]]:
     Vrátí transponovanou matici.
     """
     if matrix == []:
-        return([])
+        return []
     n = len(matrix)
     m = len(matrix[0])
     new_matrix = []
@@ -14,4 +14,4 @@ def matrix_transpose(matrix: list[list[int]]) -> list[list[int]]:
         for j in range(n):
             row.append(matrix[j][i])
         new_matrix.append(row)
-    return(new_matrix)
+    return new_matrix
