@@ -16,6 +16,7 @@ def most_frequent(items: list) -> any:
     n = maximum(counters)
     return unique_values[n]
 
+
 def maximum(counters):
     max_count = 0
     for count in counters:
